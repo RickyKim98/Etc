@@ -1,0 +1,247 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\MK\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "memory-inspector.debugTypes": [
+        "gdb",
+        "embedded-debug",
+        "arm-debugger",
+        "renesas-hardware",
+        "renesas-simulator",
+        "renesas-cloud-jlink",
+        "renesas-rcar-linux",
+        "renesas-amalgamator"
+    ],
+    "clangd.path": "/usr/bin/clangd",
+    "remote.SSH.remotePlatform": {
+        "rpi5": "linux"
+    },
+    "workbench.colorTheme": "Light+",
+    "editor.fontSize": 12,
+    "editor.fontVariations": false,
+    "editor.semanticHighlighting.enabled": true,
+    "C_Cpp.enhancedColorization": "enabled",
+    "workbench.colorCustomizations": {
+        "editor.background": "#FFFFFF",
+        "editorLineNumber.foreground": "#666666",
+        "editorLineNumber.activeForeground": "#444444",
+        "editor.lineHighlightBackground": "#EAF2FF",
+        "editor.selectionBackground": "#CFE3FF",
+        "editorCursor.foreground": "#000000",
+        "panel.background": "#FFFFFF",
+        "panel.border": "#D0D0D0",
+        "terminal.background": "#FFFFFF",
+        "terminal.foreground": "#000000",
+        "terminalCursor.foreground": "#000000",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiRed": "#A31515",
+        "terminal.ansiGreen": "#008000",
+        "terminal.ansiYellow": "#795E26",
+        "terminal.ansiBlue": "#0000FF",
+        "terminal.ansiMagenta": "#AF00DB",
+        "terminal.ansiCyan": "#267F99",
+        "terminal.ansiWhite": "#FFFFFF",
+        "terminal.ansiBrightBlack": "#666666",
+        "terminal.ansiBrightRed": "#E51400",
+        "terminal.ansiBrightGreen": "#16A34A",
+        "terminal.ansiBrightYellow": "#B58900",
+        "terminal.ansiBrightBlue": "#2563EB",
+        "terminal.ansiBrightMagenta": "#D946EF",
+        "terminal.ansiBrightCyan": "#0891B2",
+        "terminal.ansiBrightWhite": "#FFFFFF"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#808000",
+        "keywords": "#0000FF",
+        "strings": "#008000",
+        "numbers": "#FF00FF",
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment.line.double-slash.c",
+                    "comment.line.double-slash.cpp",
+                    "comment.block.c",
+                    "comment.block.cpp"
+                ],
+                "settings": {
+                    "foreground": "#808000"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.c",
+                    "keyword.control.cpp",
+                    "keyword.operator.c",
+                    "keyword.operator.cpp",
+                    "storage.type.c",
+                    "storage.type.cpp",
+                    "storage.modifier.c",
+                    "storage.modifier.cpp",
+                    "entity.name.type.c",
+                    "entity.name.type.cpp",
+                    "support.type.c",
+                    "support.type.cpp"
+                ],
+                "settings": {
+                    "foreground": "#0000FF",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric.c",
+                    "constant.numeric.cpp"
+                ],
+                "settings": {
+                    "foreground": "#FF00FF"
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.double.c",
+                    "string.quoted.double.cpp",
+                    "string.quoted.single.c",
+                    "string.quoted.single.cpp"
+                ],
+                "settings": {
+                    "foreground": "#008000"
+                }
+            },
+            {
+                "scope": [
+                    "meta.preprocessor.c",
+                    "meta.preprocessor.cpp"
+                ],
+                "settings": {
+                    "foreground": "#0000FF"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.directive.c",
+                    "keyword.control.directive.cpp",
+                    "keyword.control.directive.include.c",
+                    "keyword.control.directive.include.cpp",
+                    "keyword.control.directive.define.c",
+                    "keyword.control.directive.define.cpp",
+                    "punctuation.definition.directive.c",
+                    "punctuation.definition.directive.cpp"
+                ],
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.other.lt-gt.include.c",
+                    "string.quoted.other.lt-gt.include.cpp",
+                    "meta.preprocessor.include string.quoted.other.lt-gt.c",
+                    "meta.preprocessor.include string.quoted.other.lt-gt.cpp",
+                    "meta.preprocessor.include string.quoted.double.c",
+                    "meta.preprocessor.include string.quoted.double.cpp"
+                ],
+                "settings": {
+                    "foreground": "#0000FF"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.c",
+                    "entity.name.function.cpp",
+                    "meta.function.c entity.name.function.c",
+                    "meta.function.cpp entity.name.function.cpp",
+                    "support.function.c",
+                    "support.function.cpp",
+                    "meta.function-call.c entity.name.function.c",
+                    "meta.function-call.cpp entity.name.function.cpp"
+                ],
+                "settings": {
+                    "foreground": "#800000",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.preprocessor.c",
+                    "entity.name.function.preprocessor.cpp",
+                    "meta.preprocessor.macro.c entity.name.function",
+                    "meta.preprocessor.macro.cpp entity.name.function"
+                ],
+                "settings": {
+                    "foreground": "#800080",
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "function": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "function.declaration": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "method": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "method.declaration": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "*.function": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "*.declaration:function": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "defaultLibrary.function": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "variable.function": {
+                "foreground": "#800000",
+                "fontStyle": ""
+            },
+            "macro": {
+                "foreground": "#800080",
+                "fontStyle": ""
+            },
+            "type": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            },
+            "class": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            },
+            "struct": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            },
+            "enum": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            },
+            "enumMember": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            },
+            "typedef": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            },
+            "label": {
+                "foreground": "#0000FF",
+                "fontStyle": ""
+            }
+        }
+    },
+    "terminal.integrated.fontFamily": "Consolas"
+    "terminal.integrated.fontSize": 13
+}
